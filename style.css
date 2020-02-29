@@ -1,0 +1,35 @@
+.options {
+  display: inline-block;
+  padding: 5px;
+  align-items: center;
+  border-color: green;
+  border-width: 3px;
+  border-style: solid;
+  height: 200px;
+  /*word-wrap: normal;*/
+}
+
+body {
+	background-image: url('./Images/AYUDH_logo.jpg');
+}
+.onebuffer {
+	display: inline-block;
+	/*This class is used to create a one-column (col-sm-1) whitespace used to center the three box elements under options*/
+}
+
+.selected {
+	border-color: red;
+	background-color: #04cf9f;
+}
+
+#firstchoice {
+	text-align: center;
+}
+
+#secondchoice {
+	text-align: center;
+}
+
+#thirdchoice {
+	text-align: center;
+}
